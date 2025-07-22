@@ -1,7 +1,5 @@
-﻿namespace AirlineBookingSystem.Payment.Application
-{
-    public class Class1
-    {
+﻿namespace AirlineBookingSystem.Payment.Application;
 
-    }
+public class Class1
+{
 }

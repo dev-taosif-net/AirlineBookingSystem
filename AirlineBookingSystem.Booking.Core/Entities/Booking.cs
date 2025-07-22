@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace AirlineBookingSystem.Booking.Core.Entities;
 
-namespace AirlineBookingSystem.Booking.Core.Entities;
-
-internal class Booking
+public class Booking
 {
     public Guid Id { get; set; }
     public Guid? FlightId { get; set; }

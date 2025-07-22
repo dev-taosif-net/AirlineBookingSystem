@@ -1,7 +1,5 @@
-﻿namespace AirlineBookingSystem.Flight.Infrastructure
-{
-    public class Class1
-    {
+﻿namespace AirlineBookingSystem.Flight.Infrastructure;
 
-    }
+public class Class1
+{
 }

@@ -1,18 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace AirlineBookingSystem.Flight.Core.Entities;
 
-namespace AirlineBookingSystem.Flight.Core.Entities
+public class Flight
 {
-    internal class Flight
-    {
-        public Guid Id { get; set; }
-        public string? FlightNumber { get; set; }
-        public string? Origin { get; set; }
-        public string? Destination { get; set; }
-        public DateTime? DepartureTime { get; set; }
-        public DateTime? ArrivalTime { get; set; }
-    }
+    public Guid Id { get; set; }
+    public string? FlightNumber { get; set; }
+    public string? Origin { get; set; }
+    public string? Destination { get; set; }
+    public DateTime? DepartureTime { get; set; }
+    public DateTime? ArrivalTime { get; set; }
 }
