@@ -9,7 +9,7 @@ public class BookingRepository(IDbConnection dbConnection) : IBookingRepository
     public Task<Core.Entities.Booking?> GetByIdAsync(Guid id)
     {
        const string sql = $"SELECT * FROM Bookings WHERE Id = @Id";
-         return dbConnection.QuerySingleOrDefaultAsync<Core.Entities.Booking>(sql, new { Id = id });
+        return dbConnection.QuerySingleOrDefaultAsync<Core.Entities.Booking>(sql, new { Id = id });
     }
 
     public Task<IEnumerable<Core.Entities.Booking>> GetAllAsync()
