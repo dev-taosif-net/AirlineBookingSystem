@@ -6,4 +6,13 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\AirlineBookingSystem.Payment.Core\AirlineBookingSystem.Payment.Core.csproj" />
+      <ProjectReference Include="..\AirlineBookingSystem.Payment.Infrastructure\AirlineBookingSystem.Payment.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />
+    </ItemGroup>
+
 </Project>
