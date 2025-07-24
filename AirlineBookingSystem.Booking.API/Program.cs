@@ -14,7 +14,7 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<IBookingRepository, BookingRepository>();
 builder.Services.AddScoped<IDbConnection>(x => new SqlConnection(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-//Register MediatR
+//Register RabbitMq
 var assemblies = new Assembly[]
 {
     Assembly.GetExecutingAssembly(),

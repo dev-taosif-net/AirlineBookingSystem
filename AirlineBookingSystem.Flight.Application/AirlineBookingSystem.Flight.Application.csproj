@@ -5,5 +5,14 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="MediatR" Version="13.0.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Handlers\" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\AirlineBookingSystem.Flight.Core\AirlineBookingSystem.Flight.Core.csproj" />
+    </ItemGroup>
 
 </Project>
